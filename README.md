@@ -102,5 +102,5 @@ python -m src.evaluate
 | Tête | FC(1152→256→33) | BiLSTM + Linear(256→34) |
 | Loss | CrossEntropy | CTCLoss |
 | Décodage | argmax direct | greedy CTC (collapse+blank) |
-| Extensible aux mots | ❌ | ✅ |
+| Extensible aux mots | Non | Oui |
 | Paramètres | ~443k | ~1.5M |
