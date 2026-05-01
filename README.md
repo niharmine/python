@@ -96,7 +96,7 @@ python -m src.evaluate
 
 ## Différences avec la version v1 (CNN simple)
 
-| | v1 (CNN) | v2 (CRNN) |
+| |  (CNN) |  (CRNN) |
 |---|---|---|
 | Backbone | 3 conv blocks | ResNet (résiduel) |
 | Tête | FC(1152→256→33) | BiLSTM + Linear(256→34) |
